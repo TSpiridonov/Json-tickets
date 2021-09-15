@@ -15,6 +15,7 @@ public class Main {
 
         String originCity = "Владивосток";
         String destinationCity = "Тель-Авив";
+        String destinationCitys = "Тель-Авив";
 
         TicketContainer container = mapper.readValue(new File("tickets.json"), TicketContainer.class);
 
